@@ -55,3 +55,7 @@ func lissajous(out io.Writer) {
 	gif.EncodeAll(out, &anim) // Nota: está sendo ignorado erros de codificação
 }
 ```
+
+Exemplo GIF de Saída:
+
+![](out.gif)
